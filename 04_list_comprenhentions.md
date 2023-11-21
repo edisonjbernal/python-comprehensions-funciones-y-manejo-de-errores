@@ -1,3 +1,5 @@
+Se basa en la construcción de listas no predifinidas sino con contenido dinámico e incluso condiciones mientras se va creando.
+
 
 ![List comprenhentions structure](04_list_comprenhentions_00.png)
 
