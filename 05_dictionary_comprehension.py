@@ -23,7 +23,11 @@ print(population_with_comprehention)
 
 names = ['Camilo','Juan','Pedro']
 ages = [33,24,13]
+#Une dos listas en una con tuplas
 print(list(zip(names,ages)))
+#[('Camilo', 33), ('Juan', 24), ('Pedro', 13)]
 
+# Esta me generó un diccionario
 new_dict = {name:age for (name,age) in zip(names,ages)}
 print(new_dict)
+#{'Camilo': 33, 'Juan': 24, 'Pedro': 13}
