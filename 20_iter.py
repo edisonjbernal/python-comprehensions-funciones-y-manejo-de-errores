@@ -7,3 +7,5 @@ print(next(my_iter))
 print(next(my_iter))
 print(next(my_iter))
 print(next(my_iter))
+
+#Stopiteration cuando termina.
