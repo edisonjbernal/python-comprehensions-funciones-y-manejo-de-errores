@@ -4,14 +4,12 @@ def read_csv(filename):
     with open(filename, 'r') as f:
         reader = csv.reader(f, delimiter=',')
         headers = next(reader)
-        print(headers)
         data = []
         for row in reader:
-            print('---' * 10)
+            #print('---' * 10)
             iterable = zip(headers, row)
             #print(list(iterable))
             country_dict = {key: value for key, value in iterable}
-     
             data.append(country_dict)
             #print(row)
         return data
