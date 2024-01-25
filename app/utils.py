@@ -18,6 +18,14 @@ def get_population_by_country(country):
     values = population_dic.values()
     return labels,values
 
+def get_population_in_world(data):
+    labels = []
+    values = []
+    for country in data:
+        labels.append(country['Country/Territory'])
+        values.append(float(country['World Population Percentage']))
+    return labels,values
+
 
 
 def population_by_country(data,country):
